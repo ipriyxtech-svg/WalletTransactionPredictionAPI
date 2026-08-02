@@ -1,51 +1,128 @@
-# Wallet Transaction Prediction API
+<div align="center">
 
-This project is a FastAPI-based machine learning microservice that predicts outcomes based on wallet transaction features using a pre-trained linear regression model.
+# 💳 Wallet Transaction Prediction API
 
-## 🧾 Project Structure
+### 🤖 AI • Machine Learning • FastAPI • FinTech
 
-- `api_router.py`: FastAPI route for prediction.
-- `linear_model.pkl`: Serialized linear regression model.
-- `user-wallet-transactions.csv`: Sample dataset of wallet transactions.
-- `Untitled.ipynb`: Jupyter notebook for data analysis and model training.
-- `Transfer Dock_Text_20250723190831.txt`: Additional reference document.
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=24&pause=1200&color=00F7FF&center=true&vCenter=true&width=900&lines=Wallet+Transaction+Prediction;Machine+Learning+API;FastAPI+Microservice;Financial+Analytics;Built+by+Priyanshu+Rai"/>
 
-## 🚀 Getting Started
+<br>
 
-### Prerequisites
+<img src="https://img.shields.io/github/stars/ipriyxtech-svg/wallet-transaction-prediction-api?style=for-the-badge"/>
+<img src="https://img.shields.io/github/forks/ipriyxtech-svg/wallet-transaction-prediction-api?style=for-the-badge"/>
+<img src="https://img.shields.io/github/license/ipriyxtech-svg/wallet-transaction-prediction-api?style=for-the-badge"/>
+<img src="https://img.shields.io/github/last-commit/ipriyxtech-svg/wallet-transaction-prediction-api?style=for-the-badge"/>
 
-- Python 3.8+
-- FastAPI
-- Uvicorn
+<br><br>
+
+<img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python"/>
+<img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi"/>
+<img src="https://img.shields.io/badge/Scikit--Learn-F7931E?style=for-the-badge&logo=scikitlearn"/>
+<img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy"/>
+<img src="https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter"/>
+
+</div>
+
+---
+
+# 📖 About
+
+**Wallet Transaction Prediction API** is a **Machine Learning-powered FastAPI microservice** that predicts transaction outcomes based on wallet transaction features using a trained regression model.
+
+It demonstrates how Machine Learning models can be deployed as REST APIs for FinTech and blockchain analytics applications.
+
+---
+
+# ✨ Features
+
+- 🤖 Machine Learning Prediction
+- ⚡ FastAPI REST API
+- 📊 Wallet Transaction Analysis
+- 📈 Linear Regression Model
+- 🔄 JSON API Responses
+- 🚀 High Performance
+- 📱 Easy API Integration
+
+---
+
+# 🛠 Tech Stack
+
+<p align="center">
+
+<img src="https://skillicons.dev/icons?i=python,fastapi,git,github,vscode"/>
+
+</p>
+
+### Machine Learning
+
+- Scikit-Learn
 - NumPy
-- Scikit-learn
-- Pydantic
+- Pandas
+- Jupyter Notebook
 
-### Installation
+---
 
-```bash
-pip install fastapi uvicorn numpy scikit-learn
+# 🏗 System Workflow
+
+```text
+Wallet Transaction Data
+          │
+          ▼
+Data Preprocessing
+          │
+          ▼
+Machine Learning Model
+          │
+          ▼
+FastAPI Endpoint
+          │
+          ▼
+Prediction Response
 ```
 
-### Running the API
+---
+
+# 📂 Project Structure
+
+```text
+wallet-transaction-prediction-api/
+
+├── project/
+├── assignment/
+├── api_router.py
+├── analysis.md
+├── linear_model.pkl
+├── user-wallet-transactions.csv
+└── README.md
+```
+
+---
+
+# 🚀 Installation
 
 ```bash
+git clone https://github.com/ipriyxtech-svg/wallet-transaction-prediction-api.git
+
+cd wallet-transaction-prediction-api
+
+pip install -r requirements.txt
+
 uvicorn api_router:router --reload
 ```
 
-### API Endpoint
+---
 
-#### POST `/predict`
+# 🔗 API Endpoint
 
-**Request:**
+### POST `/predict`
 
 ```json
 {
-  "features": [0.2, 0.5, 0.3, ...]
+  "features": [0.2, 0.5, 0.3]
 }
 ```
 
-**Response:**
+### Response
 
 ```json
 {
@@ -53,14 +130,55 @@ uvicorn api_router:router --reload
 }
 ```
 
-## 📊 Model
+---
 
-The model used is a scikit-learn linear regression model trained on wallet transaction features. Refer to `Untitled.ipynb` for training details.
+# 📊 Applications
 
-## 📁 Data
+- 💳 FinTech Analytics
+- 📈 Transaction Prediction
+- 🤖 AI APIs
+- 📊 Financial Forecasting
+- 🔍 Data Analysis
 
-- `user-wallet-transactions.csv` contains anonymized wallet transaction records used for training/testing the model.
+---
 
-## 📝 License
+# 🚀 Future Improvements
 
-MIT License
+- 🌐 Docker Deployment
+- ☁ Cloud Hosting
+- 📊 Interactive Dashboard
+- 🤖 Advanced ML Models
+- 🔐 Authentication
+- 📈 Real-time Predictions
+
+---
+
+# 👨‍💻 Developer
+
+## Priyanshu Rai
+
+💻 Full Stack Developer
+
+🤖 AI / Machine Learning Engineer
+
+⛓ Blockchain Developer
+
+☁ Cloud & DevOps Enthusiast
+
+🌐 Portfolio
+
+https://portfolio-theta-gold-qbsedt4h1o.vercel.app
+
+🐙 GitHub
+
+https://github.com/ipriyxtech-svg
+
+---
+
+<div align="center">
+
+## ⭐ If you found this project useful, don't forget to Star ⭐
+
+Made with ❤️ by **Priyanshu Rai**
+
+</div>
